@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A98EB25F15CC7322004DA3A9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98EB25E15CC7322004DA3A9 /* Cocoa.framework */; };
+		A98EB26915CC7322004DA3A9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A98EB26715CC7322004DA3A9 /* InfoPlist.strings */; };
+		A98EB26B15CC7322004DA3A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A98EB26A15CC7322004DA3A9 /* main.m */; };
+		A98EB26F15CC7322004DA3A9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A98EB26D15CC7322004DA3A9 /* Credits.rtf */; };
+		A98EB27215CC7322004DA3A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A98EB27115CC7322004DA3A9 /* AppDelegate.m */; };
+		A98EB27515CC7323004DA3A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98EB27315CC7323004DA3A9 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A98EB25A15CC7322004DA3A9 /* MuteTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuteTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98EB25E15CC7322004DA3A9 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A98EB26115CC7322004DA3A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A98EB26215CC7322004DA3A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A98EB26315CC7322004DA3A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A98EB26615CC7322004DA3A9 /* MuteTimer-Info.plist */ = {isa = PBXFileReference; path = "MuteTimer-Info.plist"; sourceTree = "<group>"; };
+		A98EB26815CC7322004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A98EB26A15CC7322004DA3A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A98EB26C15CC7322004DA3A9 /* MuteTimer-Prefix.pch */ = {isa = PBXFileReference; path = "MuteTimer-Prefix.pch"; sourceTree = "<group>"; };
+		A98EB26E15CC7322004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		A98EB27015CC7322004DA3A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A98EB27115CC7322004DA3A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A98EB27415CC7323004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A98EB25715CC7322004DA3A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98EB25F15CC7322004DA3A9 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98EB24F15CC7322004DA3A9 = {
+			isa = PBXGroup;
+			children = (
+				A98EB26415CC7322004DA3A9 /* MuteTimer */,
+				A98EB25D15CC7322004DA3A9 /* Frameworks */,
+				A98EB25B15CC7322004DA3A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A98EB25B15CC7322004DA3A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB25A15CC7322004DA3A9 /* MuteTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A98EB25D15CC7322004DA3A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB25E15CC7322004DA3A9 /* Cocoa.framework */,
+				A98EB26015CC7322004DA3A9 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A98EB26015CC7322004DA3A9 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB26115CC7322004DA3A9 /* AppKit.framework */,
+				A98EB26215CC7322004DA3A9 /* CoreData.framework */,
+				A98EB26315CC7322004DA3A9 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A98EB26415CC7322004DA3A9 /* MuteTimer */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB27015CC7322004DA3A9 /* AppDelegate.h */,
+				A98EB27115CC7322004DA3A9 /* AppDelegate.m */,
+				A98EB27315CC7323004DA3A9 /* MainMenu.xib */,
+				A98EB26515CC7322004DA3A9 /* Supporting Files */,
+			);
+			path = MuteTimer;
+			sourceTree = "<group>";
+		};
+		A98EB26515CC7322004DA3A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A98EB26615CC7322004DA3A9 /* MuteTimer-Info.plist */,
+				A98EB26715CC7322004DA3A9 /* InfoPlist.strings */,
+				A98EB26A15CC7322004DA3A9 /* main.m */,
+				A98EB26C15CC7322004DA3A9 /* MuteTimer-Prefix.pch */,
+				A98EB26D15CC7322004DA3A9 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A98EB25915CC7322004DA3A9 /* MuteTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A98EB27815CC7323004DA3A9 /* Build configuration list for PBXNativeTarget "MuteTimer" */;
+			buildPhases = (
+				A98EB25615CC7322004DA3A9 /* Sources */,
+				A98EB25715CC7322004DA3A9 /* Frameworks */,
+				A98EB25815CC7322004DA3A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuteTimer;
+			productName = MuteTimer;
+			productReference = A98EB25A15CC7322004DA3A9 /* MuteTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A98EB25115CC7322004DA3A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A98EB25415CC7322004DA3A9 /* Build configuration list for PBXProject "MuteTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A98EB24F15CC7322004DA3A9;
+			productRefGroup = A98EB25B15CC7322004DA3A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A98EB25915CC7322004DA3A9 /* MuteTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A98EB25815CC7322004DA3A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98EB26915CC7322004DA3A9 /* InfoPlist.strings in Resources */,
+				A98EB26F15CC7322004DA3A9 /* Credits.rtf in Resources */,
+				A98EB27515CC7323004DA3A9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A98EB25615CC7322004DA3A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98EB26B15CC7322004DA3A9 /* main.m in Sources */,
+				A98EB27215CC7322004DA3A9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A98EB26715CC7322004DA3A9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98EB26815CC7322004DA3A9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A98EB26D15CC7322004DA3A9 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98EB26E15CC7322004DA3A9 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		A98EB27315CC7323004DA3A9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A98EB27415CC7323004DA3A9 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A98EB27615CC7323004DA3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A98EB27715CC7323004DA3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A98EB27915CC7323004DA3A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteTimer/MuteTimer-Prefix.pch";
+				INFOPLIST_FILE = "MuteTimer/MuteTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A98EB27A15CC7323004DA3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MuteTimer/MuteTimer-Prefix.pch";
+				INFOPLIST_FILE = "MuteTimer/MuteTimer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A98EB25415CC7322004DA3A9 /* Build configuration list for PBXProject "MuteTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98EB27615CC7323004DA3A9 /* Debug */,
+				A98EB27715CC7323004DA3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A98EB27815CC7323004DA3A9 /* Build configuration list for PBXNativeTarget "MuteTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A98EB27915CC7323004DA3A9 /* Debug */,
+				A98EB27A15CC7323004DA3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A98EB25115CC7322004DA3A9 /* Project object */;
+}
