@@ -8,8 +8,14 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+    NSStatusItem *statusItem;
+    NSDate *endTime;
+    NSCalendar *systemCalendar;
+    NSTimer *updateTimer;
+    NSImage *statusImage;
+}
 
-@property (assign) IBOutlet NSWindow *window;
+- (void)update;
 
 @end

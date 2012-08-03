@@ -13,6 +13,10 @@
 		A98EB26F15CC7322004DA3A9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A98EB26D15CC7322004DA3A9 /* Credits.rtf */; };
 		A98EB27215CC7322004DA3A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A98EB27115CC7322004DA3A9 /* AppDelegate.m */; };
 		A98EB27515CC7323004DA3A9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A98EB27315CC7323004DA3A9 /* MainMenu.xib */; };
+		A98EB27E15CC7367004DA3A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98EB27D15CC7367004DA3A9 /* AudioToolbox.framework */; };
+		A98EB28815CC7459004DA3A9 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98EB28715CC7459004DA3A9 /* CoreAudio.framework */; };
+		A98EB28B15CC76CF004DA3A9 /* mute_32x32.png in Resources */ = {isa = PBXBuildFile; fileRef = A98EB28915CC76CE004DA3A9 /* mute_32x32.png */; };
+		A98EB28C15CC76CF004DA3A9 /* mute_16x16.png in Resources */ = {isa = PBXBuildFile; fileRef = A98EB28A15CC76CE004DA3A9 /* mute_16x16.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +25,18 @@
 		A98EB26115CC7322004DA3A9 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A98EB26215CC7322004DA3A9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A98EB26315CC7322004DA3A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A98EB26615CC7322004DA3A9 /* MuteTimer-Info.plist */ = {isa = PBXFileReference; path = "MuteTimer-Info.plist"; sourceTree = "<group>"; };
+		A98EB26615CC7322004DA3A9 /* MuteTimer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MuteTimer-Info.plist"; sourceTree = "<group>"; };
 		A98EB26815CC7322004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A98EB26A15CC7322004DA3A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A98EB26C15CC7322004DA3A9 /* MuteTimer-Prefix.pch */ = {isa = PBXFileReference; path = "MuteTimer-Prefix.pch"; sourceTree = "<group>"; };
+		A98EB26C15CC7322004DA3A9 /* MuteTimer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MuteTimer-Prefix.pch"; sourceTree = "<group>"; };
 		A98EB26E15CC7322004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		A98EB27015CC7322004DA3A9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		A98EB27015CC7322004DA3A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A98EB27115CC7322004DA3A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A98EB27415CC7323004DA3A9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A98EB27D15CC7367004DA3A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A98EB28715CC7459004DA3A9 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A98EB28915CC76CE004DA3A9 /* mute_32x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute_32x32.png; sourceTree = "<group>"; };
+		A98EB28A15CC76CE004DA3A9 /* mute_16x16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mute_16x16.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A98EB28815CC7459004DA3A9 /* CoreAudio.framework in Frameworks */,
+				A98EB27E15CC7367004DA3A9 /* AudioToolbox.framework in Frameworks */,
 				A98EB25F15CC7322004DA3A9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +56,8 @@
 		A98EB24F15CC7322004DA3A9 = {
 			isa = PBXGroup;
 			children = (
+				A98EB28715CC7459004DA3A9 /* CoreAudio.framework */,
+				A98EB27D15CC7367004DA3A9 /* AudioToolbox.framework */,
 				A98EB26415CC7322004DA3A9 /* MuteTimer */,
 				A98EB25D15CC7322004DA3A9 /* Frameworks */,
 				A98EB25B15CC7322004DA3A9 /* Products */,
@@ -85,6 +97,8 @@
 				A98EB27015CC7322004DA3A9 /* AppDelegate.h */,
 				A98EB27115CC7322004DA3A9 /* AppDelegate.m */,
 				A98EB27315CC7323004DA3A9 /* MainMenu.xib */,
+				A98EB28915CC76CE004DA3A9 /* mute_32x32.png */,
+				A98EB28A15CC76CE004DA3A9 /* mute_16x16.png */,
 				A98EB26515CC7322004DA3A9 /* Supporting Files */,
 			);
 			path = MuteTimer;
@@ -155,6 +169,8 @@
 				A98EB26915CC7322004DA3A9 /* InfoPlist.strings in Resources */,
 				A98EB26F15CC7322004DA3A9 /* Credits.rtf in Resources */,
 				A98EB27515CC7323004DA3A9 /* MainMenu.xib in Resources */,
+				A98EB28B15CC76CF004DA3A9 /* mute_32x32.png in Resources */,
+				A98EB28C15CC76CF004DA3A9 /* mute_16x16.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
