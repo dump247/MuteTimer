@@ -10,6 +10,8 @@ system status bar. When the timer reaches zero, the computer is unmuted.
 If the computer is unmuted while the timer is running, the timer stops
 automatically.
 
+Works on OSX 10.7 x86\_64.
+
 # Notes
 
 The timer is currently hard coded to 28 seconds and is not configurable
