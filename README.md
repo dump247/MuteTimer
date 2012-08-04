@@ -20,7 +20,7 @@ start of the next song.
 
 # Screenshots
 
-![Screenshot](screenshot.png)
+![Screenshot](MuteTimer/screenshot.png)
 
 # License
 
