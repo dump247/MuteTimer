@@ -86,7 +86,7 @@ static void SetMute(BOOL mute) {
     [statusItem setImage:statusImage];
     
     [self update];
-    updateTimer = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(update) userInfo:nil repeats:YES];
+    updateTimer = [NSTimer scheduledTimerWithTimeInterval:0.5 target:self selector:@selector(update) userInfo:nil repeats:YES];
 }
 
 @end
